@@ -174,10 +174,10 @@ function Index() {
         <p className="eyebrow">Dúvidas</p>
         <h2 className="mt-3 mb-6 text-4xl text-primary">Perguntas frequentes</h2>
         {[
-          ["Como funciona a solicitação de horário?", "Você escolhe o serviço, a profissional e, se quiser, uma data e período. A solicitação vai pronta para o WhatsApp da profissional."],
-          ["O horário já fica confirmado?", "Ainda não. É uma solicitação — a confirmação é feita pela profissional do Entre Elas pelo WhatsApp."],
-          ["Preciso escolher data e período?", "Não. Os dois são opcionais; se deixar em branco, fica “A combinar”."],
-          ["Como funcionam os valores sob consulta?", "Os valores são informados pela profissional no WhatsApp, de acordo com o serviço e o seu cabelo, unhas ou sobrancelhas."],
+          ["Quais serviços encontro no Entre Elas?", "Aqui você encontra escova modelada, coloração e finalização de cabelos com Manu Alves, design de sobrancelhas com Charlene Martins e cuidados com as unhas com Mércury Nails Designer."],
+          ["Como é o efeito das unhas magnéticas?", "As unhas magnéticas têm um brilho que muda conforme a luz e o movimento das mãos. É uma das opções de unhas oferecidas no Entre Elas."],
+          ["Como posso consultar o valor do serviço que quero?", "Os valores são sob consulta. Conte à profissional qual serviço deseja e como estão seu cabelo, unhas ou sobrancelhas para que ela informe o valor pelo WhatsApp."],
+          ["Como solicito um horário no Entre Elas?", "Escolha o serviço em “Solicitar horário” e envie seu pedido à profissional. Ela confirma o horário com você pelo WhatsApp."],
         ].map(([q, a]) => (
           <details key={q} className="group border-b py-4">
             <summary className="flex cursor-pointer list-none justify-between gap-4 font-medium">{q}<span className="text-gold transition group-open:rotate-45">+</span></summary>
